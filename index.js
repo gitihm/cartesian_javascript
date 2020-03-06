@@ -12,8 +12,8 @@ function cartesianProduct(arr) {
     }, [[]])
 }
 
-var a = cartesianProduct(data);
-let choice = JSON.stringify(a)
+var choice = JSON.stringify(cartesianProduct(data))
 console.log({choice, answer : 12});
+//{ choice: '[[1,3,5],[1,4,5],[2,3,5],[2,4,5]]', answer: 12 }
 
 
